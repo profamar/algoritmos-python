@@ -17,6 +17,7 @@ Para usar este algoritmo, você pode clonar este repositório e executar o scrip
 
 - **Python 3.9+**: Linguagem principal para a implementação dos algoritmos.
 - **Git & GitHub**: Para versionamento e colaboração.
+- GitHub Copilot: Assistente de codificação para aumentar a produtividade.
 - **Editor de Código**: Visual Studio Code, PyCharm ou qualquer outro de sua preferência.
 
 ## Clonando o Repositório
