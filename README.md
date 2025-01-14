@@ -1,4 +1,4 @@
-# Resolvendo Algoritmo de Ordenação: QuickSort em Python com o Github Copilot 🚀
+# Resolvendo algoritmo QuickSort com GitHub Copilot 🚀
 
 Este repositório apresenta uma implementação do algoritmo de ordenação QuickSort em Python, reconhecido por sua eficiência e ampla aplicação devido ao seu desempenho consistente em média. O projeto integra o desafio proposto na aula "Utilizando o GitHub Copilot para Solucionar Algoritmos em Python", parte do curso Formação GitHub Certification oferecido pela DIO.
 
