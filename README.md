@@ -1,13 +1,15 @@
-# Resolvendo Algoritmo de Ordenação: QuickSortn com o GitHub Copilot 🚀
+# Resolvendo Algoritmo de Ordenação: QuickSort em Python com o Github Copilot 🚀
 
-Este repositório contém uma implementação do algoritmo de ordenação QuickSort em Python. O QuickSort é um algoritmo de ordenação eficiente e amplamente utilizado devido à sua boa performance em média. Este projeto faz parte do desafio proposto no curso "Utilizando o GitHub Copilot para Solucionar Algoritmos em Python" da [DIO](https://web.dio.me/).
+Este repositório apresenta uma implementação do algoritmo de ordenação QuickSort em Python, reconhecido por sua eficiência e ampla aplicação devido ao seu desempenho consistente em média. O projeto integra o desafio proposto na aula "Utilizando o GitHub Copilot para Solucionar Algoritmos em Python", parte do curso Formação GitHub Certification oferecido pela DIO.
 
 ## Descrição do Algoritmo
 O QuickSort é um algoritmo de ordenação por divisão e conquista. Ele funciona escolhendo um elemento como pivô e particionando o array de forma que todos os elementos menores que o pivô fiquem à esquerda, e todos os elementos maiores que o pivô fiquem à direita. O algoritmo então aplica a mesma lógica recursivamente às sublistas geradas.
 
 ## Complexidade
 - Pior Caso: O(n²) - Ocorre quando o pivô escolhido é o maior ou o menor elemento em cada partição.
+
 - Caso Médio: O(n log n) - Ocorre quando o pivô escolhido divide bem as partições.
+
 - Melhor Caso: O(n log n) - Ocorre quando as partições são sempre igualmente divididas.
 
 ## Como Usar
