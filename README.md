@@ -1,6 +1,4 @@
-# Resolvendo algoritmo QuickSort com GitHub Copilot 🚀
-
-![Descrição da Imagem](images/image-QuickSort.png)
+# Resolvendo algoritmo QuickSort com GitHub Copilot 🚀![Descrição da Imagem](images/image-QuickSort.png)
 
 
 
