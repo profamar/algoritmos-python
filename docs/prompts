@@ -1,0 +1,105 @@
+```markdown
+# QuickSort em Python
+
+## 📚 Contexto
+Este projeto consiste na implementação do algoritmo de ordenação **QuickSort** utilizando a linguagem **Python**. O QuickSort é um exemplo clássico de algoritmos baseados no paradigma de **divisão e conquista**. Ele seleciona um elemento como pivô e particiona a lista de forma que:
+- Os elementos menores que o pivô sejam posicionados à esquerda.
+- Os elementos maiores sejam posicionados à direita.
+
+Em seguida, o algoritmo aplica a mesma lógica recursivamente às sublistas resultantes, garantindo **eficiência** e **desempenho consistente** na ordenação de dados.
+
+---
+
+## 📝 Descrição do Projeto
+O algoritmo **QuickSort** é projetado para ordenar conjuntos de dados com **eficiência**, utilizando a estratégia de divisão e conquista. Um dos destaques é o **processo de particionamento**, que organiza os elementos em relação ao pivô, posicionando os menores à esquerda e os maiores à direita, permitindo a aplicação recursiva da lógica de ordenação.
+
+---
+
+## 🧮 Complexidade do Algoritmo
+
+| **Cenário**    | **Complexidade**      | **Descrição** |
+|-----------------|-----------------------|---------------|
+| Pior Caso      | O(n²)                | Ocorre quando o pivô escolhido é o maior ou o menor elemento em cada partição. |
+| Caso Médio     | O(n log n)           | Ocorre quando o pivô escolhido divide bem as partições. |
+| Melhor Caso    | O(n log n)           | Ocorre quando as partições são sempre igualmente divididas. |
+
+---
+
+## 🚀 Como Usar
+
+### Pré-requisitos
+- Python 3.9 ou superior.
+- Git instalado para clonar o repositório.
+
+### Clonando o Repositório
+```bash
+git clone https://github.com/seu-usuario/algoritmos-python.git
+```
+
+### Executando o Script
+1. Acesse o diretório do projeto:
+   ```bash
+   cd algoritmos-python
+   ```
+2. Execute o script:
+   ```bash
+   python quicksort.py
+   ```
+
+---
+
+## 💡 Exemplo de Uso
+O código do algoritmo é implementado da seguinte forma:
+```python
+def quicksort(arr):
+    if len(arr) <= 1:
+        return arr
+    pivot = arr[len(arr) // 2]
+    left = [x for x in arr if x < pivot]
+    middle = [x for x in arr if x == pivot]
+    right = [x for x in arr if x > pivot]
+    return quicksort(left) + middle + quicksort(right)
+
+# Exemplo de teste:
+array = [3, 6, 8, 10, 1, 2, 1]
+print(quicksort(array))  # Saída: [1, 1, 2, 3, 6, 8, 10]
+```
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+- **Python 3.9+**: Linguagem principal para a implementação do algoritmo.
+- **Git & GitHub**: Para versionamento e colaboração.
+- **GitHub Copilot**: Assistente de codificação para aumentar a produtividade.
+- **Editor de Código**: Visual Studio Code, PyCharm ou outro de sua preferência.
+
+---
+
+## 🤝 Contribuições
+Contribuições são bem-vindas! Para contribuir:
+1. Crie uma issue para discutir as mudanças.
+2. Faça um fork do repositório.
+3. Envie um pull request com as alterações.
+
+---
+
+## 📄 Licença
+Este projeto está licenciado sob a [Licença MIT](LICENSE). Consulte o arquivo LICENSE para mais detalhes.
+
+---
+
+## 🌟 Sobre o Projeto
+Este repositório foi criado para demonstrar a implementação do algoritmo QuickSort em Python e facilitar seu aprendizado e uso em projetos.
+
+---
+
+### 📊 Estatísticas do Repositório
+- **Estrelas**: 🌟 0
+- **Observadores**: 👀 1
+- **Forks**: 🍴 0
+- **Releases**: 🚀 Nenhuma publicação ainda.
+
+---
+
+© 2025 GitHub, Inc.
+```
