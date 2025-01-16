@@ -1,35 +1,49 @@
-# Resolvendo algoritmo QuickSort com GitHub Copilot 🚀
+## 🌟 Sobre o Projeto
+Este projeto implementa o algoritmo de ordenação QuickSort em Python, explorando o paradigma de divisão e conquista. O repositório também utiliza as ferramentas do GitHub para solucionar algoritmos em Python, integrando o desafio proposto na aula "Utilizando o GitHub Copilot para Solucionar Algoritmos em Python", parte do curso Formação GitHub Certification oferecido pela DIO.
 
-Este repositório apresenta uma implementação do algoritmo de ordenação QuickSort em Python, reconhecido por sua eficiência e ampla aplicação devido ao seu desempenho consistente em média. O projeto integra o desafio proposto na aula "Utilizando o GitHub Copilot para Solucionar Algoritmos em Python", parte do curso Formação GitHub Certification oferecido pela DIO.
+---
 
-## Descrição do Algoritmo
-O QuickSort é um algoritmo de ordenação por divisão e conquista. Ele funciona escolhendo um elemento como pivô e particionando o array de forma que todos os elementos menores que o pivô fiquem à esquerda, e todos os elementos maiores que o pivô fiquem à direita. O algoritmo então aplica a mesma lógica recursivamente às sublistas geradas.
+## 📝 Descrição do Projeto
+O algoritmo **QuickSort** é projetado para ordenar conjuntos de dados com **eficiência**, utilizando a estratégia de divisão e conquista. Um dos destaques é o **processo de particionamento**, que organiza os elementos em relação ao pivô, posicionando os menores à esquerda e os maiores à direita, permitindo a aplicação recursiva da lógica de ordenação.
 
-## Complexidade
-- Pior Caso: O(n²) - Ocorre quando o pivô escolhido é o maior ou o menor elemento em cada partição.
+---
 
-- Caso Médio: O(n log n) - Ocorre quando o pivô escolhido divide bem as partições.
+## 🧮 Complexidade do Algoritmo
 
-- Melhor Caso: O(n log n) - Ocorre quando as partições são sempre igualmente divididas.
+| **Cenário**    | **Complexidade**      | **Descrição** |
+|-----------------|-----------------------|---------------|
+| Pior Caso      | O(n²)                | Ocorre quando o pivô escolhido é o maior ou o menor elemento em cada partição. |
+| Caso Médio     | O(n log n)           | Ocorre quando o pivô escolhido divide bem as partições. |
+| Melhor Caso    | O(n log n)           | Ocorre quando as partições são sempre igualmente divididas. |
 
-## Como Usar
-Para usar este algoritmo, você pode clonar este repositório e executar o script Python com a função QuickSort.
+---
 
-## 🛠️ Tecnologias Utilizadas
+## 🚀 Como Usar
 
-- **Python 3.9+**: Linguagem principal para a implementação dos algoritmos.
-- **Git & GitHub**: Para versionamento e colaboração.
-- GitHub Copilot: Assistente de codificação para aumentar a produtividade.
-- **Editor de Código**: Visual Studio Code, PyCharm ou qualquer outro de sua preferência.
+### Pré-requisitos
+- Python 3.9 ou superior.
+- Git instalado para clonar o repositório.
 
-## Clonando o Repositório
+### Clonando o Repositório
+```bash
 git clone https://github.com/seu-usuario/algoritmos-python.git
+```
 
-## Executando o Script
-cd algoritmos-python
-python quicksort.py
+### Executando o Script
+1. Acesse o diretório do projeto:
+   ```bash
+   cd algoritmos-python
+   ```
+2. Execute o script:
+   ```bash
+   python quicksort.py
+   ```
 
-## Exemplo de Uso
+---
+
+## 💡 Exemplo de Uso
+O código do algoritmo é implementado da seguinte forma:
+```python
 def quicksort(arr):
     if len(arr) <= 1:
         return arr
@@ -39,13 +53,34 @@ def quicksort(arr):
     right = [x for x in arr if x > pivot]
     return quicksort(left) + middle + quicksort(right)
 
-# Teste
+# Exemplo de teste:
 array = [3, 6, 8, 10, 1, 2, 1]
-print(quicksort(array))  # Deve retornar [1, 1, 2, 3, 6, 8, 10]
+print(quicksort(array))  # Saída: [1, 1, 2, 3, 6, 8, 10]
+```
 
-## Contribuições
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+---
 
-## Licença
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
+## 🛠️ Tecnologias Utilizadas
+- **Python 3.9+**: Linguagem principal para a implementação do algoritmo.
+- **Git & GitHub**: Para versionamento e colaboração.
+- **GitHub Copilot**: Assistente de codificação para aumentar a produtividade.
+- **Editor de Código**: Visual Studio Code, PyCharm ou outro de sua preferência.
+
+---
+
+## 🤝 Contribuições
+Contribuições são bem-vindas! Para contribuir:
+1. Crie uma issue para discutir as mudanças.
+2. Faça um fork do repositório.
+3. Envie um pull request com as alterações.
+
+---
+
+## 📄 Licença
+Este projeto está licenciado sob a [Licença MIT](LICENSE). Consulte o arquivo LICENSE para mais detalhes.
+
+---
+📧 Contato
+Para dúvidas ou sugestões, entre em contato pelo LinkedIn: Márcia Soares
+
 
