@@ -38,7 +38,6 @@ git clone https://github.com/seu-usuario/algoritmos-python.git
    ```bash
    python quicksort.py
    ```
-
 ---
 
 ## 💡 Exemplo de Uso
