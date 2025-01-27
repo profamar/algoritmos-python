@@ -4,7 +4,6 @@ Este projeto demonstra como o GitHub Copilot pode ser usado para implementar e r
 ---
 ![Diagrama do Projeto](https://github.com/profamar/algoritmos-python/blob/main/image-QuickSort.png)
 
-
 ## 📝 Descrição do Projeto
 O algoritmo **QuickSort** é projetado para ordenar conjuntos de dados com **eficiência**, utilizando a estratégia de divisão e conquista. Um dos destaques é o **processo de particionamento**, que organiza os elementos em relação ao pivô, posicionando os menores à esquerda e os maiores à direita, permitindo a aplicação recursiva da lógica de ordenação.
 
