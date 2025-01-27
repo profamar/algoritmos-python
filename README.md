@@ -2,7 +2,7 @@
 Este projeto demonstra como o GitHub Copilot pode ser usado para implementar e resolver o algoritmo de ordenação QuickSort em Python. Reconhecido por sua eficiência e ampla aplicação, o QuickSort é explorado como parte do desafio da aula "Utilizando o GitHub Copilot para Solucionar Algoritmos em Python", do curso Formação GitHub Certification oferecido pela DIO.
 
 ---
-![Diagrama do Projeto](https://github.com/seu-usuario/seu-repositorio/blob/main/diagrama.png)
+![Diagrama do Projeto](https://github.com/profamar/algoritmos-python/blob/main/image-QuickSort.png)
 
 
 ## 📝 Descrição do Projeto
